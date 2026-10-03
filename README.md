@@ -9,12 +9,6 @@
 #### 🐹 [`csizer`](https://github.com/JJunior19/csizer)
 > Go CLI that watches your Docker containers' real usage and recommends right-sized CPU/memory limits — **local-first**, no cloud telemetry, no agents.
 
-#### 🧠 [`super-smart-medical-assistant-lambda`](https://github.com/JJunior19/super-smart-medical-assistant-lambda)
-> Serverless medical assistant running on **AWS Lambda** (Python).
-
-#### ⚡ [`GOTENBERG_AWS`](https://github.com/JJunior19/GOTENBERG_AWS) · [`terraform-challenge`](https://github.com/JJunior19/terraform-challenge)
-> Infrastructure as Code: **Terraform** modules deploying Gotenberg (HTML→PDF) on AWS and other cloud experiments.
-
 ---
 
 ### 🧰 `$ cat stack.config`

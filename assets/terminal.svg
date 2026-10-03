@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Terminal session: whoami, cat stack.txt, uptime">
+  <title>jorge@devops — terminal session</title>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="1" y="1" width="758" height="42" rx="11" fill="#161b22"/>
+  <rect x="1" y="22" width="758" height="21" fill="#161b22"/>
+  <line x1="1" y1="43" x2="759" y2="43" stroke="#30363d" stroke-width="1"/>
+
+  <!-- traffic lights -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="380" y="27" text-anchor="middle" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b949e">jorge@devops: ~</text>
+
+  <!-- clip paths (typing effect) -->
+  <defs>
+    <clipPath id="c1">
+      <rect x="24" y="70" width="200" height="24">
+        <animate attributeName="width" values="0;0;200;200" keyTimes="0;0.0125;0.0875;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c3">
+      <rect x="24" y="126" width="263" height="24">
+        <animate attributeName="width" values="0;0;263;263" keyTimes="0;0.125;0.2;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c5">
+      <rect x="24" y="182" width="200" height="24">
+        <animate attributeName="width" values="0;0;200;200" keyTimes="0;0.2375;0.3125;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c7">
+      <rect x="24" y="238" width="146" height="24">
+        <animate attributeName="width" values="0;0;146;146" keyTimes="0;0.35;0.4125;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- line 1 -->
+  <text x="24" y="86" clip-path="url(#c1)" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <tspan fill="#7ee787">jorge@devops</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan>
+  </text>
+
+  <!-- line 2 -->
+  <text x="42" y="114" fill="#79c0ff" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.106;1" dur="16s" repeatCount="indefinite"/>
+    Backend &amp; DevOps Engineer — Go · Python · AWS
+  </text>
+
+  <!-- line 3 -->
+  <text x="24" y="142" clip-path="url(#c3)" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <tspan fill="#7ee787">jorge@devops</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat stack.txt</tspan>
+  </text>
+
+  <!-- line 4 -->
+  <text x="42" y="170" fill="#79c0ff" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2125;0.2185;1" dur="16s" repeatCount="indefinite"/>
+    Go · Python · AWS · Docker · Terraform
+  </text>
+
+  <!-- line 5 -->
+  <text x="24" y="198" clip-path="url(#c5)" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <tspan fill="#7ee787">jorge@devops</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">uptime</tspan>
+  </text>
+
+  <!-- line 6 -->
+  <text x="42" y="226" fill="#79c0ff" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.325;0.331;1" dur="16s" repeatCount="indefinite"/>
+    up 7 years of code — still shipping 🚀
+  </text>
+
+  <!-- line 7 -->
+  <text x="24" y="254" clip-path="url(#c7)" font-family="Menlo, Monaco, 'DejaVu Sans Mono', monospace" font-size="15">
+    <tspan fill="#7ee787">jorge@devops</tspan><tspan fill="#8b949e">:~$ </tspan>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="170" y="240" width="9" height="20" fill="#e6edf3">
+    <animate attributeName="opacity"
+      values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;1"
+      keyTimes="0;0.425;0.45625;0.4875;0.51875;0.55;0.58125;0.6125;0.64375;0.675;0.70625;0.7375;0.76875;0.8;0.83125;0.8625;0.89375;0.925;0.95625;0.9875;1"
+      dur="16s" repeatCount="indefinite"/>
+  </rect>
+</svg>

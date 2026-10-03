@@ -49,12 +49,6 @@
 
 ---
 
-### 🎵 `$ spotify player`
-
-[![Spotify](https://novatorem-five-tau.vercel.app/api/spotify)](https://open.spotify.com/user/4mktbkfthndgx5haj8pby8oge)
-
----
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=JJunior19&style=flat-square&color=0d1117&label=profile+views" alt="Profile views" />
 </div>

@@ -56,7 +56,7 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc.svg?username=JJunior19&style=flat-square&color=0d1117&label=profile+views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=JJunior19&style=flat-square&color=0d1117&label=profile+views" alt="Profile views" />
 </div>
 
 <div align="center">

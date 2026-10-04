@@ -9,6 +9,9 @@
 #### 🐹 [`csizer`](https://github.com/JJunior19/csizer)
 > Go CLI that watches your Docker containers' real usage and recommends right-sized CPU/memory limits — **local-first**, no cloud telemetry, no agents.
 
+#### 🔷 [`OpencodeBar`](https://github.com/JJunior19/OpencodeBar)
+> TypeScript plugin for [OpenCode](https://opencode.ai) that shows the **real API-equivalent cost** of your sessions in the TUI sidebar — per model, per subagent, priced from LiteLLM. Coding plans hide it; this reveals it.
+
 ---
 
 ### 🧰 `$ cat stack.config`
